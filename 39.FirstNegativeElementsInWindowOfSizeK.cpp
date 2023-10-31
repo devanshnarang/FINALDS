@@ -49,6 +49,10 @@ int main()
 	for (int i = 0; i < final.size(); i++)
 	{
 		/* code */
+		if(final[i]>=0){
+			cout<<"INT_MIN"<<"  ";
+			continue;
+                }
 		cout<<final[i]<<"  ";
 	}
 	cout<<endl;
